@@ -29,7 +29,7 @@ function submitFunction()
     window.localStorage.setItem('phone',phone.value);
     window.localStorage.setItem('PS',PS.value);
     window.localStorage.setItem('WH',WH.value);
-    window.open(" https://sohanhegde1.github.io/SUTT-TASK-1/template.html? ");
+    window.open(" template.html");
     }
 } 
 
