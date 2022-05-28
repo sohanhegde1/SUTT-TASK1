@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Montserrat:wght@700&display=swap');
+
+*
+{
+margin: 0%;
+padding: 0%;
+font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+}
+
+body{
+background-color: white;
+}
+
+.header
+{
+background-color: rgb(95,107,121);
+height:10vh;
+
+}
+.header h1
+{
+position: relative;
+top: 2vh;
+}
+.mid1
+{
+
+    display: flex;
+    justify-content:space-around;
+    position: relative;
+    top: 10px;
+    height:250px;
+
+}
+
+.login{
+    padding: 10px;
+    margin: auto;
+    width: 30%;
+}   
+
+#heading
+{
+vertical-align: middle;
+text-align: center;
+color: white;
+}
+::-webkit-calendar-picker-indicator
+{
+background-color: white ;
+}
+input[type="text"]
+{
+    width: 100%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    font-family: "Roboto mono",monospace;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(95,107,121) ;
+    font-size: large;
+}
+
+#submit-btn
+{
+background-color:rgb(95,107,121);
+color: white;
+padding: 10px 15px;
+text-align: center;
+border-radius:20px;
+font-size: 16px;
+box-shadow: mediumblue;
+}
+#submit-btn:hover{
+    cursor: pointer;
+}
+
+#clear-btn
+{
+background-color:rgb(95,107,121);
+color: white;
+padding: 10px 15px;
+text-align: center;
+border-radius:20px;
+font-size: 16px;
+box-shadow: mediumblue;
+
+}
+#clear-btn:hover{
+    cursor: pointer;
+}
+
+.mid2
+{
+    display: flex;
+    justify-content:space-around;
+    position: relative;
+    top: 10px;
+    height:250px;
+    background-color:rgb(95,107,121) ;
+    color: white;
+}
+
+textarea
+{
+padding: 20px;
+width: 100%;
+padding: 5px 5px;
+margin: 8px 0;
+font-family: "Roboto mono",monospace;
+box-sizing: border-box;
+border: none;
+border-bottom: 2px solid rgb(95,107,121) ;
+height: 75px;
+font-size: large;
+}
